@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dehub</title>
+</head>
+<body>
+    <header>
+        <h1>Dehub</h1>
+    </header>
+
+<main>
+    
+    <div class="main-div">
+        
+  <div style="height: 50px; width: 100px;z-index: 1;
+  margin-top: 20px;position: relative;">
+    <button id="btn1"
+    class="sub-button" >Government Website</button></div>
+   
+ <div style="height: 50px; width: 100px;z-index: 1;
+ margin-top: 20px;position: relative;"> <button id="btn2"
+    class="sub-button">Trading Platforms</button></div>
+ 
+ <div style="height: 50px; width: 100px;z-index: 1;
+  margin-top: 20px;position: relative;"> <button id="btn3"
+    class="sub-button">Telecom Website</button></div>
+  
+  <div style="height: 50px; width: 100px;z-index: 1;
+  margin-top: 20px;position: relative;"> <button id="btn4"
+    class="sub-button">Medical Services</button></div>
+   
+ <div style="height: 50px; width: 100px;z-index: 1;
+ margin-top: 20px;position: relative;"> <button id="btn5"
+    class="sub-button">Educational Resources</button></div>
+ 
+ <div style="height: 50px; width: 100px;z-index: 1;
+  margin-top: 20px;position: relative;"> <button 
+   id="btn6" class="sub-button">Emergency Services</button></div>
+    </div>
+    <div class="image-and-search">
+        <img src="Dehub.jpg" class="img;" >
+        <input type="text" class="search-bar" placeholder="Find your resource here">
+        
+    </div>
+    
+    <script>
+
+const redirectBtn1 = document.getElementById('btn1');
+
+redirectBtn1.addEventListener('click', () => {
+  window.location.href = "govtw.html"; 
+});
+const redirectBtn2 = document.getElementById('btn2');
+
+redirectBtn2.addEventListener('click', () => {
+  window.location.href = "tradep.html"; 
+});
+const redirectBtn3 = document.getElementById('btn3');
+
+redirectBtn3.addEventListener('click', () => {
+  window.location.href = "telecom.html"; 
+});
+const redirectBtn4 = document.getElementById('btn4');
+
+redirectBtn4.addEventListener('click', () => {
+  window.location.href = "medical.html"; 
+});
+const redirectBtn5 = document.getElementById('btn5');
+
+redirectBtn5.addEventListener('click', () => {
+  window.location.href = "edu.html"; 
+});
+        
+const redirectBtn6 = document.getElementById('btn6');
+
+redirectBtn6.addEventListener('click', () => {
+  window.location.href = "emerg.html"; 
+});
+
+
+
+    </script>
+
+
+</main>
+    <footer><p>© Helpline Resource</p></footer>
+    
+ <style>
+    .sub-button {
+    
+        background-color: rgb(96, 184, 175);
+        border: 0.3; border-color: aquamarine;
+        cursor: pointer;
+    }
+    .main-div{
+        margin-right: 300px;
+    }
+    .image-and-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 500px;
+    border: 1px dotted white;
+}
+
+
+.image-and-search img {
+    margin-bottom: 20px;
+    height: 110px;
+    width: 180px;
+    border-radius: 60px;
+
+
+    opacity: 0px;
+}
+
+        body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        background: rgb(17,0,36);
+background: radial-gradient(circle, rgba(17,0,36,1) 0%, rgba(13,76,65,1) 22%, rgba(0,212,255,1) 100%);
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+    header{
+        background-color: rgb(13, 55, 57);
+        color: white;
+        text-align: center;
+    }
+    main {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(32, 104, 108);
+    }
+    .search-bar {
+        width: 300px;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    }
+    body {
+    background-image: url('webtrac.jpg');
+    background-color: transparent;
+}
+    footer p {
+        margin: 0;
+    }
+</style>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+      "botId": "f3b9d762-ff1d-42b5-8178-727d59357859",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "f3b9d762-ff1d-42b5-8178-727d59357859",
+      "webhookId": "26a75c8c-5444-4bde-8ad5-b46465233dc5",
+      "lazySocket": true,
+      "themeName": "prism",
+      "frontendVersion": "v1",
+      "showPoweredBy": true,
+      "theme": "prism",
+      "themeColor": "#2563eb",
+      "allowedOrigins": []
+  });
+</script>
+<script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/f3b9d762-ff1d-42b5-8178-727d59357859/webchat/v2/config.js"></script>
+</body>
+</html>
